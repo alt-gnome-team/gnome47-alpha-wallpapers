@@ -25,13 +25,14 @@ backgrounds = [
 ]
 
 metadatas = [
-  'lcd-blue.xml',
-  'lcd-green.xml',
-  'map.xml',
-  'mollnar.xml',
-  'sheet.xml',
-  'symbolic-soup.xml',
-  'swoosh.xml',
+  'gnome-47-alpha-lcd-blue.xml',
+  'gnome-47-alpha-lcd-green.xml',
+  'gnome-47-alpha-map.xml',
+  'gnome-47-alpha-mollnar.xml',
+  'gnome-47-alpha-pills.xml',
+  'gnome-47-alpha-sheet.xml',
+  'gnome-47-alpha-symbolic-soup.xml',
+  'gnome-47-alpha-swoosh.xml',
 ]
 
 install_data(backgrounds, install_dir: backgrounddir)
