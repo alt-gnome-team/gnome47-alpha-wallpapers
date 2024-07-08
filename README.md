@@ -6,6 +6,7 @@ The desired environment is set via meson options.
 Example:
 ```
 meson setup --reconfigure -Dtarget_de=gnome _build
+ninja -C _build install
 ```
 
 Possible values for now:
