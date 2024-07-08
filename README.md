@@ -12,4 +12,4 @@ ninja -C _build install
 Possible values for now:
 * gnome
 
-The backrounds are taken from the gnome-backrounds repository: https://gitlab.gnome.org/GNOME/gnome-backgrounds/
+The backgrounds are taken from the gnome-backrounds repository: https://gitlab.gnome.org/GNOME/gnome-backgrounds/
