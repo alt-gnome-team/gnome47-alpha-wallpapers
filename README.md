@@ -1,5 +1,5 @@
-# GNOME 47 alpha backrounds
-Backrounds from GNOME 47 alpha
+# GNOME 47 alpha wallpapers
+Backgrounds from GNOME 47 alpha
 
 The desired environment is set via meson options.
 
