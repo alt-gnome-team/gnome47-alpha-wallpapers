@@ -1,0 +1,10 @@
+option(
+  'target_de',
+  type: 'combo',
+  choices: [
+    'gnome',
+    'all',
+  ],
+  value: 'gnome',
+  description: 'Target desktop environment'
+)

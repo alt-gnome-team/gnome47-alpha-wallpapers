@@ -1,0 +1,27 @@
+<Project xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:gnome="http://api.gnome.org/doap-extensions#"
+         xmlns="http://usefulinc.com/ns/doap#">
+
+  <name xml:lang="en">gnome47-alpha-backgrounds</name>
+  <shortdesc xml:lang="en">Backrounds from GNOME 47 alpha</shortdesc>
+  <shortdesc xml:lang="ru">Обои из альфа версии GNOME 47</shortdesc>
+  <homepage rdf:resource="https://github.com/alt-gnome-team/gnome47-alpha-wallpapers" />
+  <bug-database rdf:resource="https://github.com/alt-gnome-team/gnome47-alpha-wallpapers/issues" />
+  <description>Background images from GNOME 47 alpha.</description>
+
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Semen Fomchenkov</foaf:name>
+      <foaf:mbox rdf:resource="mailto:armatik@alt-gnome.ru" />
+       <foaf:account>
+        <foaf:OnlineAccount>
+          <foaf:accountServiceHomepage rdf:resource="https://github.com"/>
+          <foaf:accountName>Armatik</foaf:accountName>
+        </foaf:OnlineAccount>
+      </foaf:account>
+    </foaf:Person>
+  </maintainer>
+
+</Project>
