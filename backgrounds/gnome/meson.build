@@ -29,7 +29,6 @@ metadatas = [
   'lcd-green.xml',
   'map.xml',
   'mollnar.xml',
-  'pills.xml',
   'sheet.xml',
   'symbolic-soup.xml',
   'swoosh.xml',
