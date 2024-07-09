@@ -2,9 +2,9 @@ option(
   'target_de',
   type: 'combo',
   choices: [
-    'gnome',
+    'gnome47-alpha',
     'all',
   ],
-  value: 'gnome',
+  value: 'gnome47-alpha',
   description: 'Target desktop environment'
 )
