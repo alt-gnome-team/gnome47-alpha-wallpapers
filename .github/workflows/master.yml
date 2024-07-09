@@ -8,11 +8,6 @@ jobs:
     container:
       image: ubuntu:latest
 
-    strategy:
-      matrix:
-        targetde: gnome
-      fail-fast: false
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -25,7 +20,7 @@ jobs:
 
       - name: Setup build dir
         run:
-          meson setup --reconfigure -Dtarget_de=${{ matrix.targetde }} _build
+          meson setup _build
 
       - name: Install
         run:
