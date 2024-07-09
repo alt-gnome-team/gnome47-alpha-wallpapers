@@ -10,9 +10,4 @@ prefix = get_option('prefix')
 
 datadir = join_paths(prefix, get_option('datadir'))
 
-if get_option('target_de') == 'all'
-  subdir('backgrounds/gnome')
-else
-  subdir('backgrounds/@0@'.format(get_option('target_de')))
-endif
-
+subdir('backgrounds/gnome47-alpha')
