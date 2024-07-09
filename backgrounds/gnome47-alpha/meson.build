@@ -1,4 +1,4 @@
-backgrounddir = join_paths(datadir, 'backgrounds', 'gnome-47-alpha')
+backgrounddir = join_paths(datadir, 'backgrounds', 'gnome47-alpha')
 metadatadir = join_paths(datadir, 'gnome-background-properties')
 
 conf = configuration_data()
